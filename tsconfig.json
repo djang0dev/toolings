@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    "importsNotUsedAsValues": "error",
+    "allowJs": true,
+    "checkJs": true,
+
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    //
+    "isolatedModules": true, // https://preconstruct.tools/guides/building-typescript-packages
+    "noEmit": true
+  },
+  "exclude": ["**/node_modules/**/*", "**/*.spec.ts", "**/*.test.ts", "**/dist"],
+  //
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Strictest"
+}
